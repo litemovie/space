@@ -23,5 +23,6 @@ apt install wget -y
 apt install zip -y 
 apt install unzip -y 
 apt install falkon -y 
+apt install firefox vlc ffmpeg neofetch -y 
 apt-get autoclean -y 
 apt-get autoremove
