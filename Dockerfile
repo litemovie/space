@@ -2,7 +2,6 @@ FROM ubuntu
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update 
-RUN apt install curl -y
 RUN docker run -p 3000:6901 accetto/ubuntu-vnc-xfce
 COPY novnc.zip /novnc.zip
 COPY . /system
