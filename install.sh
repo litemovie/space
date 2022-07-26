@@ -9,10 +9,8 @@ apt install x11vnc -y
 apt install xvfb -y 
 apt install supervisor -y  
 apt install xfce4 -y 
-apt install gnome-shell -y 
-apt install ubuntu-gnome-desktop -y 
-apt install gnome-session -y  
-apt install gdm3 -y  
+apt install xfce4-terminal -y 
+apt install xfce4-session -y
 apt install tasksel -y 
 apt install ssh  -y 
 apt install terminator -y 
