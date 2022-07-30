@@ -17,5 +17,3 @@ apt install unzip -y
 apt install firefox vlc ffmpeg neofetch -y 
 apt-get autoclean -y 
 apt-get autoremove -y
-passwd 123456 -y
-vncpasswd 123456 -y
