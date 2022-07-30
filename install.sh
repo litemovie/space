@@ -1,26 +1,19 @@
 #!/bin/bash
 
-apt install dbus-x11 -y 
+apt install tightvncserver -y 
 apt install sudo -y  
 apt install bash -y  
-apt install net-tools -y 
 apt install novnc -y  
 apt install x11vnc -y  
 apt install xvfb -y 
-apt install supervisor -y  
 apt install xfce4 -y 
-apt install xfce4-terminal -y 
-apt install xfce4-session -y
-apt install tasksel -y 
 apt install ssh  -y 
-apt install terminator -y 
-apt install git -y 
+apt install xfce4-goodies -y 
 apt install nano -y 
 apt install curl -y 
 apt install wget -y  
 apt install zip -y 
 apt install unzip -y 
-apt install falkon -y 
 apt install firefox vlc ffmpeg neofetch -y 
 apt-get autoclean -y 
 apt-get autoremove
